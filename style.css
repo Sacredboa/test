@@ -1,0 +1,588 @@
+* {
+  box-sizing: border-box;
+}
+.img-original {
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  width: auto;
+  height: auto;
+  opacity: 0.3;
+}
+body {
+  margin: 0;
+}
+.width-margin-forall {
+  width: auto;
+  max-width: 1280px;
+  margin: auto;
+}
+
+
+.header {
+  background: #02918c;
+  text-align: right;
+  padding-right: 45px;
+  padding-left: 45px;
+}
+.header-h1 {
+  float: left;
+  font-size: 27px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 0.9;
+  margin-top: 15px;
+}
+.header-nav {
+  float: right;
+}
+li {
+  display: inline-block;
+  vertical-align: middle;
+}
+.a-margin {
+  margin-right: 45px;
+}
+.header-h1-span {
+  color: #cfc91d;
+}
+.header-a {
+  text-decoration: none;
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.header-a:hover {
+  color: #cfc91d;
+}
+.header::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.section-img-main {
+  position: relative;
+  background-image: url("https://i.lensdump.com/i/zmx8F.jpg");
+  background-size: cover;
+  text-align: center;
+  padding-bottom: 210px;
+  padding-top: 201px;
+}
+.section-img-main::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.66);
+}
+.section-img-main-bg {
+  padding-bottom: 45px;
+}
+.section-img-main-text {
+  color: #fff;
+  font-family: Open Sans, sans-serif;
+  position: relative;
+  margin: 0;
+}
+.div01 {
+  font-size: 31px;
+  font-weight: 400;
+  word-spacing: 2px;
+}
+.div02 {
+  font-size: 69px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  word-spacing: 15px;
+  line-height: 1.2;
+  padding-left: 40px;
+}
+.div03 {
+  font-size: 18px;
+  word-spacing: 3px;
+  padding-left: 5px;
+}
+.section-img-main-bg::after {
+  content: url("https://i.lensdump.com/i/z3Ra3.png");
+  display: block;
+  position: relative;
+  margin-top: 45px;
+}
+.section-img-main-btm {
+  position: relative;
+  display: inline-block;
+  color: #0b1016;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  background: #cfc91d;
+  width: 197px;
+  height: 48px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  padding-top: 12px;
+}
+
+
+.section-aboutme {
+  text-align: center;
+  padding-bottom: 70px;
+}
+.section-aboutme-h2 {
+  color: #02918c;
+  font-size: 46px;
+  font-family: Open Sans, sans-sarif;
+  text-transform: uppercase;
+  font-weight: 800;
+  word-spacing: 4px;
+  padding-top: 44px;
+  margin-bottom: 5px;
+}
+.section-aboutme-h2::after {
+  content: "~~~~~~~~::~~~~~~~~";
+  display: block;
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  line-height: 2.2;
+  padding: 5px 180px;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+}
+.section-aboutme-text {
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  line-height: 2.2;
+  padding: 0 180px;
+}
+.section-aboutme-text-strong {
+  font-size: 23px;
+  font-weight: 800;
+}
+
+
+.section-menu {
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 0;
+}
+.section-menu-div {
+  display: inline-block;
+  width: 22.2%;
+  height: 250px;
+  padding: 36px 45px;
+}
+.icon-lamp::before {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nRqeQ.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 35px;
+  height: 40px;
+  margin: 0 auto;
+}
+.icon-pen::before {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nRqeQ.png");
+  background-position-x: -43px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 35px;
+  height: 40px;
+  margin: 0 auto;
+}
+.icon-gear::before {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nRqeQ.png");
+  background-position-x: -86px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 36px;
+  height: 40px;
+  margin: 0 auto;
+}
+.icon-display::before {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nRqeQ.png");
+  background-position-x: -129px;
+  background-repeat: no-repeat;
+  display: block;
+  width: 35px;
+  height: 40px;
+  margin: 0 auto;
+}
+.border-right {
+  border-right: 1px solid #7e8287;
+}
+.section-menu-div-h3 {
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.section-menu-div-p {
+  color: #7e8287;
+  font-size: 11px;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.95;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+
+.section-services {
+  overflow: hidden;
+  position: relative;
+}
+.section-services::after {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nMP51.png");
+  background-size: 100% auto;
+  background-repeat: repeat;
+  display: block;
+  height: 100%;
+  width: 50%;
+  position: absolute; 
+  top: 0; 
+  left: 50%;
+}
+.section-services-menu {
+  display: block;
+  width: 50%;
+  background-color: #f0f0e8;
+  vertical-align: top;
+  padding-top: 20px;
+  padding-bottom: 75px;
+}
+.section-services-menu-text {
+  display: inline-block;
+  width: auto;
+  padding-left: 86px;
+  padding-bottom: 25px;
+}
+.section-services-menu-text-h2 {
+  color: #02918c;
+  font-size: 46px;
+  font-family: Open Sans, sans-sarif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  margin-bottom: 10px;
+}
+.section-services-menu-text-h2::after {
+  content: "~~~~~::~~~~~";
+  display: block;
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding-left: 2px;
+  padding-top: 22px;
+}
+.section-services-menu-text-p {
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+.div04 {
+  line-height: 2.5;
+  padding-right: 50px;
+}
+.section-services-menu-prg {
+  display: inline-block;
+  width: 49.6%;
+  margin-top: 30px;
+}
+.padding-prg1 {
+  padding-left: 87px;
+  padding-right: 35px;
+}
+.padding-prg2 {
+  padding-left: 44px;
+  padding-right: 80px;
+}
+.icon-globe::before {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nN0w0.png");
+  background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 35px;
+}
+.icon-lens::before {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nN0w0.png");
+  background-repeat: no-repeat;
+  background-position-x: -43px;
+  display: block;
+  width: 40px;
+  height: 35px;
+}
+.icon-clock::before {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nN0w0.png");
+  background-repeat: no-repeat;
+  background-position-x: -86px;
+  display: block;
+  width: 40px;
+  height: 35px;
+}
+.icon-chart::before {
+  content: "";
+  background-image: url("https://i.lensdump.com/i/nN0w0.png");
+  background-repeat: no-repeat;
+  background-position-x: -129px;
+  display: block;
+  width: 40px;
+  height: 35px;
+}
+.section-services-menu-prg-h3 {
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+  margin-top: 15px;
+}
+.section-services-menu-prg-p {
+  color: #7e8287;
+  font-size: 11px;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.95;
+  padding-left: 2px;
+}
+
+
+.section-mywork {
+  padding-bottom: 75px;
+  text-align: center;
+}
+.section-mywork-h2 {
+  color: #02918c;
+  font-size: 46px;
+  font-family: Open Sans, sans-sarif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  padding-top: 50px;
+  margin-bottom: 10px;
+}
+.section-mywork-h2::after {
+  content: "~~~~~::~~~~~";
+  display: block;
+  color: #7e8287;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Open Sans, sans-serif;
+  letter-spacing: 0.6px;
+  padding-top: 10px;
+}
+.section-mywork-text {
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+.div05 {
+  padding: 0 295px;
+  line-height: 2.5;
+}
+
+
+.section-pic-prg {
+  display: inline-block;
+  width: 25%;
+  height: 235px;
+  vertical-align: top;
+}
+.pic1 {
+  background: url('https://i.lensdump.com/i/LvZVF.jpg') no-repeat 0 -125px;
+  margin-right: -2px;
+  position: relative;
+}
+.pic2 {
+  background: url('https://i.lensdump.com/i/Lv63Q.jpg') no-repeat;
+  margin-left: -2px;
+  margin-right: -2px;
+  position: relative;
+}
+.pic3 {
+  background: url('https://i.lensdump.com/i/LvV9k.jpg') no-repeat -400px -325px;
+  margin-left: -2px;
+  margin-right: -2px;
+  position: relative;
+}
+.pic4 {
+  background: url('https://i.lensdump.com/i/LvK3P.jpg') no-repeat -260px -505px;
+  margin-left: -2px;
+  position: relative;
+}
+.pic5 {
+  background: url('https://i.lensdump.com/i/LvDi7.jpg') no-repeat 0 -350px;
+  margin-right: -2px;
+  position: relative;
+}
+.pic6 {
+  background: url('https://i.lensdump.com/i/LvXbq.jpg') no-repeat -320px -165px;
+  margin-left: -2px;
+  margin-right: -2px;
+  position: relative;
+}
+.pic7 {
+  background: url('https://i.lensdump.com/i/LMzOC.jpg') no-repeat;
+  margin-left: -2px;
+  margin-right: -2px;
+  position: relative;
+}
+.pic8 {
+  background: url('https://i.lensdump.com/i/LMnZz.jpg') no-repeat -730px -360px;
+  margin-left: -2px;
+  position: relative;
+}
+.section-pic-hover {
+  position: absolute;
+  left: 0;
+  margin: 20px 25px;
+  text-align: center;
+  background-color: #269d97;
+  opacity: 0.85;
+  overflow: hidden;
+  display: none;
+}
+.section-pic-hover-h3 {
+  color: #fff;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+  padding-top: 33px;
+}
+.section-pic-hover-p {
+  color: #fff;
+  font-size: 13px;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.7;
+  padding: 0 20px;
+  padding-bottom: 30px;
+}
+.section-pic-prg:hover .section-pic-hover {
+  display: block;
+}
+
+
+.section-contactme {
+  text-align: center;
+  padding-bottom: 60px;
+}
+.section-contactme-h2 {
+  color: #02918c;
+  font-size: 46px;
+  font-family: Open Sans, sans-sarif;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  padding-top: 45px;
+  margin-bottom: 15px;
+}
+.section-contactme-h2::after {
+ content: "~~~~~::~~~~~";
+  display: block;
+  color: #7e8287;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Open Sans, sans-serif;
+  letter-spacing: 0.6px;
+  padding-top: 10px; 
+}
+.section-contactme-text {
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+}
+.div06 {
+  padding: 0 295px;
+  line-height: 2.5;
+}
+
+
+.section-submit {
+  text-align: center;
+  background-color: #0b0b0b;
+  padding-bottom: 70px;
+}
+.section-submit-text {
+  display: inline-block;
+  width: 50%;
+  color: #7e8287;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #0b0b0b;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  overflow: hidden;
+  border-bottom: 1px solid #fff;
+  outline: none;
+}
+.text-name {
+  margin-top: 54px;
+  line-height: 2.5;
+}
+.text-email {
+  margin-top: 56px;
+  line-height: 2.5;
+  margin-bottom: 20px;
+}
+.text-message {
+  line-height: 5.8;
+  width: 72%;
+  height: 160px;
+  resize: none;
+  margin-bottom: 70px;
+  background: url("https://i.lensdump.com/i/MK39c.png") repeat;
+  background-position: 0 -20px;
+  border-bottom: none;
+}
+.section-submit-btm {
+  display: block;
+  color: #0b1016;
+  font-family: Open Sans, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 15px;
+  background: #cfc91d;
+  border: none;
+  width: 197px;
+  height: 48px;
+  margin: auto;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+
+
+.footer {
+  text-align: center;
+  background-color: #000;
+}
+.footer-address {
+  color: #7e8287;
+  font-family: Open Sans, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-style: normal;
+  padding: 30px;
+}
